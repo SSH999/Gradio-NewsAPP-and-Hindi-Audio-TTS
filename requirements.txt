@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+gradio
+requests
+beautifulsoup4
+transformers
+gtts
+deep-translator
+keybert
+nest_asyncio
+pip
