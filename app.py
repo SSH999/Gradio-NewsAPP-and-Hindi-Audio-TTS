@@ -14,7 +14,7 @@ app = FastAPI()
 kw_model = KeyBERT()
 
 def extract_news(company_name):
-    url = f'https://newsapi.org/v2/everything?q={company_name}&apiKey=a938e249f27049acbabb2db245427cc5'
+    url = f'https://newsapi.org/v2/everything?q={company_name}&apiKey= I have hidden my private api key'
     response = requests.get(url).json()
     articles = response.get('articles', [])[:10]
     extracted_data = []
